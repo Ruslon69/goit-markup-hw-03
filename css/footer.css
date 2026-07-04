@@ -1,4 +1,8 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    height: 312px;
     background-color: #2e2f42;
 }
 
@@ -11,4 +15,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+.footer .container {
+    display: flex;
+    width: 1158px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 264px;
 }
